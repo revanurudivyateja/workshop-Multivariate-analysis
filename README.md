@@ -15,4 +15,4 @@ uploaded = files.upload()
 dd = pd.read_csv(io.BytesIO(uploaded['FlightInformation.csv']))
 
 print(dd)
-sns.scatterplot (dd['Date_of_Journey'],dd['Dep_Time'])
+https://github.com/sadulla018/workshop-Multivariate-analysis/blob/main/README.md#types-of-bivariate-analysis
