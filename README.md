@@ -15,3 +15,4 @@ uploaded = files.upload()
 dd = pd.read_csv(io.BytesIO(uploaded['FlightInformation.csv']))
 
 print(dd)
+sns.scatterplot (dd['Date_of_Journey'],dd['Dep_Time'])
