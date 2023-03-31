@@ -46,6 +46,8 @@ sns.scatterplot (dd['Date_of_Journey'],dd['Dep_Time'])
 
 ![1](https://user-images.githubusercontent.com/53014593/195491340-68a3bc53-3938-457c-bae4-2138d5c5ff99.png)
 
+
+
 ## (ii) Numerical & Categorical
 sns.barplot (x=dd['Duration'],y=dd['Price'])
 
@@ -70,6 +72,10 @@ plt.ylabel=("Price")
 plt.show()
 
 ![4](https://user-images.githubusercontent.com/53014593/195491650-bd1ce9da-0399-469f-ad84-4f02854f6f6b.png)
+
+
+
+
 
 ## Multivariate Analysis
 
